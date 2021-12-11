@@ -1,3 +1,5 @@
 {"_id":"qwerty@email.com","confirm":1,"password":"$2b$10$EvwL5PsSp6oFMUHvhJ5aHO95dW/RjJrpXVUd20J8bEKKkzs7.IoRy","confirmationToken":"eyJhbGciOiJIUzI1NiJ9.cXdlcnR5QGVtYWlsLmNvbQ.C0r8O2oQ2ER2R3suOkRd1mNzx_vBFOBJtCR7dWx2-q4"}
 {"_id":"teste@email.com","confirm":1,"password":"$2b$10$ITeXQRBxfzhaXpbnXbL9feeB7KfuKEZcPn0obLQ9uOOVBZg/fs6O.","confirmationToken":"eyJhbGciOiJIUzI1NiJ9.dGVzdGVAZW1haWwuY29t.ft5gpBLoXVrucN3Ow6w2tn-lF31l-pz_aidqBrAi-n0"}
 {"_id":"user@email.com","confirm":1,"password":"$2b$10$3OARK.oPMYjQ.OWaprYvt.I2UXEj.THB4RLtSMb2h5k6ls/rt9UNq","confirmationToken":"eyJhbGciOiJIUzI1NiJ9.dXNlckBlbWFpbC5jb20.x1DDlxGkAsfxfUc7DK3M8aoC5JCcBKWEyDf1KzmKui8"}
+{"_id":"axw40@hotmail.com","confirm":0,"password":"$2b$10$Tq2o0T0H/79WqW2f08map.ogc6HbOAjdIB.H3S3dg47pcrNdKGFQ.","confirmationToken":"eyJhbGciOiJIUzI1NiJ9.YXh3NDBAaG90bWFpbC5jb20.DIXzDcHUBeZcP7ufX-uyGfRQCHe_KpYABlwylXSnvYI"}
+{"_id":"axw40@hotmail.com","confirm":1,"password":"$2b$10$Tq2o0T0H/79WqW2f08map.ogc6HbOAjdIB.H3S3dg47pcrNdKGFQ.","confirmationToken":"eyJhbGciOiJIUzI1NiJ9.YXh3NDBAaG90bWFpbC5jb20.DIXzDcHUBeZcP7ufX-uyGfRQCHe_KpYABlwylXSnvYI"}
