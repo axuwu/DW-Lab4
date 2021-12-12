@@ -18,7 +18,7 @@ node server.js
 
 # Videos de Login e Registo
 
-video a mostrar que sem conta não dá para ver videos:
+video a mostrar que sem conta não dá para aceder ao API:
 
 https://user-images.githubusercontent.com/81578829/145719135-ccc1e25e-d2c3-4b62-b265-a4db2c255d43.mp4
 
