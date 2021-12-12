@@ -25,6 +25,8 @@ const restaurants = [
 ];
 const menus = [];
 
+var flag = false;
+
 // get menus
 function getMenus() {
   restaurants.forEach((restaurant) => {
@@ -162,6 +164,7 @@ exports.login = async (req, res) => {
   db.cRud_login(email) //
     .then(async (dados) => {
       if (await bcrypt.compare(req.body.password, dados.password)) {
+        flag = true;
         const user = { name: email };
         const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET);
         res.json({ accessToken: accessToken }); // aqui temos de enviar a token de autorização
@@ -181,8 +184,13 @@ exports.login = async (req, res) => {
 
 // My API
 getMenus();
+
 exports.getMenus = (req, res) => {
-  res.json(menus);
+  if (flag) {
+    res.json(menus);
+  } else {
+    res.json("Not Authorized");
+  }
 };
 
 exports.getRestaurant = (req, res) => {
@@ -211,7 +219,11 @@ exports.getRestaurant = (req, res) => {
           source: restaurantId,
         });
       });
-      res.json(specificmenus);
+      if (flag) {
+        res.json(specificmenus);
+      } else {
+        res.json("Not Authorized");
+      }
     })
     .catch((err) => console.log(err));
 };
