@@ -13,5 +13,5 @@ npm install
 ```
 - Correr o Projeto
 ```
-npm run start
+node server.js
 ```
